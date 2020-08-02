@@ -5,7 +5,7 @@ Using PRU's eCap module to generate PWM
 # Compile
 
 ```bash
-pru-gcc main0.c -o pwm -I./inlude/ -I./include/am335x/ -mmcu=am335x.pru0
+pru-gcc main0.c -o pwm -I./include/ -I./include/am335x/ -mmcu=am335x.pru0
 ```
 
 # Usage
